@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Jaldi', sans-serif;
+}
+
+/*    ------------------------ parmnemt style--------------------------------  */
+h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: rgb(35, 35,85);
+}
+span{
+    font-size: .9rem;
+    color: #757373;
+}
+h6{
+    font-size: 1.1rem;
+    color: rgb(24, 24, 49);
+}
+              /*------------------------------- naigation-------------------------- */
+nav{
+    /* position: fixed; */
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vw 6vw;
+    box-shadow: 2px 2px 2px rgb(0,0,0,0.15);
+    z-index: 999;
+
+}
+nav img {
+    width: 80px;
+    cursor: pointer;
+      
+}
+nav .navigation{
+    display: flex;
+}
+nav .navigation ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav .navigation ul li{
+    list-style: none;
+    margin-left: 30px;
+}
+nav .navigation ul li a{
+    text-decoration: none;
+    color: rgb(21 21 100);
+    font-size: 20px;
+    font-weight: 600;
+    transition: .4sec ease;
+}
+nav .navigation ul li a.active,
+nav .navigation ul li a:hover{
+    color: rgb(255, 46, 99);
+    
+}
+h1{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+p{
+    margin-left: 20px;
+    padding: 4px;
+}
+
